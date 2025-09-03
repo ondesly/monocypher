@@ -15,9 +15,9 @@ let package = Package(
             sources: [
                 "monocypher/monocypher.c"
             ],
-            publicHeadersPath: "monocypher",
+            publicHeadersPath: "include",
             cSettings: [
-                .headerSearchPath(""),
+                .headerSearchPath("include/monocypher"),
             ]
         )
     ],

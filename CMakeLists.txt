@@ -9,7 +9,7 @@
 cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
 
 project(monocypher
-        VERSION 4.0.1
+        VERSION 4.0.3
         LANGUAGES C)
 
 #########

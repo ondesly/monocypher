@@ -10,4 +10,5 @@ add_library(monocypher STATIC monocypher/monocypher.c)
 add_library(dtor::monocypher ALIAS monocypher)
 
 target_include_directories(monocypher
-        PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}>)
+        PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/include>
+        PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/include/monocypher>)
