@@ -17,7 +17,7 @@ let package = Package(
             ],
             publicHeadersPath: "monocypher",
             cSettings: [
-                .headerSearchPath("src"),
+                .headerSearchPath(""),
             ]
         )
     ],
